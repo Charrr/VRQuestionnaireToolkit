@@ -83,7 +83,7 @@ namespace VRQuestionnaireToolkit
             RectTransform radioGridRec = temp.GetComponent<RectTransform>();
             radioGridRec.SetParent(_questionRecTest);
 
-            radioGridRec.localPosition = new Vector3(-100 + (numOptions * 70), 35 - (numConditions * 50), 0);
+            radioGridRec.localPosition = new Vector3(40 + (numOptions * 80), 35 - (numConditions * 50), 0);
             radioGridRec.localRotation = Quaternion.identity;
             radioGridRec.localScale = new Vector3(radioGridRec.localScale.x * 0.01f, radioGridRec.localScale.y * 0.01f, radioGridRec.localScale.z * 0.01f);
 

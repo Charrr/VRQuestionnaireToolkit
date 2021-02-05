@@ -92,7 +92,7 @@ namespace VRQuestionnaireToolkit
             // Place in hierarchy 
             RectTransform sliderRec = temp.GetComponent<RectTransform>();
             sliderRec.SetParent(_questionRecTest);
-            sliderRec.localPosition = new Vector3(0, 90 - (numQuestions * 100), 0);
+            sliderRec.localPosition = new Vector3(0, 85 - (numQuestions * 94), 0);
             sliderRec.localRotation = Quaternion.identity;
             sliderRec.localScale = new Vector3(sliderRec.localScale.x * 0.01f, sliderRec.localScale.y * 0.01f, sliderRec.localScale.z * 0.01f);
 

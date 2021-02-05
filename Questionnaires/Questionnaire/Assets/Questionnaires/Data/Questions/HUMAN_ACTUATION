@@ -1,0 +1,99 @@
+{
+   "qTitle":"Follow-up Questionnaire",
+   "qInstructions":"Please answer all questions....",
+   "qId":"QHumanActuation",
+   "questions":[
+      {
+         "pId":"page1",
+         "qType":"linearSlider",
+         "qInstructions":"To what extent do you agree with the following statements?",
+         "qData":[
+            {
+               "qId":"q1",
+               "qText":"Q1: During the experience I thought that I was really standing in the virtual environment.",
+               "qMin":"0",
+               "qMinLabel":"At no time",
+               "qMax":"6",
+               "qMaxLabel":"All the time"
+            },
+            {
+               "qId":"q2",
+               "qText":"Q2: There were times during the experience when the virtual button felt real for me.",
+               "qMin":"0",
+               "qMinLabel":"At no time",
+               "qMax":"6",
+               "qMaxLabel":"All the time"
+            },
+            {
+               "qId":"q3",
+               "qText":"Q3: The movements of the virtual hand felt like they were my own movements.",
+               "qMin":"0",
+               "qMinLabel":"At no time",
+               "qMax":"6",
+               "qMaxLabel":"All the time"
+            }
+         ]
+      },
+	  {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Choose the most suitable position.",
+         "qData":[
+            {
+               "qId":"q4",
+               "qText":"Q4: I felt as if the virtual hand were my own hand.",
+               "qMin":"0",
+               "qMinLabel":"At no time",
+               "qMax":"6",
+               "qMaxLabel":"All the time"
+            },
+            {
+               "qId":"q5",
+               "qText":"Q5: On the whole, how realistic was your virtual experience?",
+               "qMin":"0",
+               "qMinLabel":"Not at all",
+               "qMax":"6",
+               "qMaxLabel":"Very much"
+            }
+         ]
+      },
+	  {
+         "pId":"page3",
+         "qType":"radioGrid",
+         "qInstructions":"Choose one option for each condition",
+         "qOptions":[
+		    "None",
+			"Slight",
+            "Moderate",
+            "Severe"
+         ],
+         "qConditions":[
+            {
+               "qId":"c1",
+               "qText":"General discomfort"
+            },
+            {
+               "qId":"c2",
+               "qText":"Eye strain"
+            },
+            {
+               "qId":"c3",
+               "qText":"Motion sickness"
+            },
+            {
+               "qId":"c4",
+               "qText":"Physical fatigue"
+            }
+         ],
+         "qData":[
+            {
+               "qId":"q6",
+               "qText":"Q6: Please select how much each symptom below is affecting you right now.",
+               "qMandatory":"true"
+            }
+         ]
+      }
+   ],
+   "qMessage":"You have completed the questionnaire",
+   "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"
+}

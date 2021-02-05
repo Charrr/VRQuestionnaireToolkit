@@ -191,7 +191,7 @@ namespace VRQuestionnaireToolkit
                             else
                             {
                                 textArray[1].text = qConditions[i][1];
-                                textArray[1].transform.localPosition = new Vector3(-245, 17 - (i * 50), textArray[1].transform.localPosition.z);
+                                textArray[1].transform.localPosition = new Vector3(-100, 17 - (i * 50), textArray[1].transform.localPosition.z);
                             }
 
                             textArray[0].transform.localPosition = new Vector3(0, 120, textArray[0].transform.localPosition.z);
@@ -264,7 +264,7 @@ namespace VRQuestionnaireToolkit
                         //ensuring correct placement and scaling in the UI
                         text = temp.GetComponentInChildren<TextMeshProUGUI>();
                         text.text = _qData[i][1];
-                        text.transform.localPosition = new Vector3(0, 100 - (i * 100), text.transform.localPosition.z);
+                        text.transform.localPosition = new Vector3(0, 105 - (i * 94), text.transform.localPosition.z);
                         SetRec(radioHorizontalRec);
                         text.text = _qData[i][1];
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -459,12 +459,12 @@ PrefabInstance:
     - target: {fileID: 8697000387260259616, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
       propertyPath: ParticipantId
-      value: id1
+      value: id1-Jiajing
       objectReference: {fileID: 0}
     - target: {fileID: 8697000387260259616, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
       propertyPath: Condition
-      value: A
+      value: BA
       objectReference: {fileID: 0}
     - target: {fileID: 8697000387260259616, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
@@ -531,6 +531,11 @@ PrefabInstance:
       propertyPath: soundClipForSelecting
       value: 
       objectReference: {fileID: 8300000, guid: 7b660b21fad7af34e806c3f3c4eb8868, type: 3}
+    - target: {fileID: 8697000387260259616, guid: 93494b0f3d397d74ba1458871f004384,
+        type: 3}
+      propertyPath: selectingVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8697000387260259617, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
       propertyPath: m_Name
@@ -679,7 +684,7 @@ PrefabInstance:
     - target: {fileID: 8697000387260259645, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
       propertyPath: JsonInputPath_1
-      value: Assets/Questionnaires/Data/Questions/questionnaire_example
+      value: Assets/Questionnaires/Data/Questions/HUMAN_ACTUATION
       objectReference: {fileID: 0}
     - target: {fileID: 8697000388396706263, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
@@ -689,12 +694,12 @@ PrefabInstance:
     - target: {fileID: 8697000388396706263, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
       propertyPath: FileName
-      value: example-answer-sheet
+      value: HA_Answers
       objectReference: {fileID: 0}
     - target: {fileID: 8697000388396706263, guid: 93494b0f3d397d74ba1458871f004384,
         type: 3}
       propertyPath: StorePath
-      value: /Questionnaires/Data/Answers/
+      value: /Questionnaires/Data/Answers/HumanActuationStudy/
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93494b0f3d397d74ba1458871f004384, type: 3}

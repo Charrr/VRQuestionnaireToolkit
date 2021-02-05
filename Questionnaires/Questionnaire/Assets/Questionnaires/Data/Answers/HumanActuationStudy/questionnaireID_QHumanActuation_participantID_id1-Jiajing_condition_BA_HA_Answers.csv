@@ -1,0 +1,11 @@
+QuestionType;Question;QuestionID;Answer
+linearSlider;Q1: During the experience I thought that I was really standing in the virtual environment.;q1;4
+linearSlider;Q2: There were times during the experience when the virtual button felt real for me.;q2;4
+linearSlider;Q3: The movements of the virtual hand felt like they were my own movements.;q3;5
+linearSlider;Q4: I felt as if the virtual hand were my own hand.;q4;4
+linearSlider;Q5: On the whole, how realistic was your virtual experience?;q5;4
+radioGrid;General discomfort_Q6: Please select how much each symptom below is affecting you right now.;q6;2
+radioGrid;Eye strain_Q6: Please select how much each symptom below is affecting you right now.;q6;2
+radioGrid;Motion sickness_Q6: Please select how much each symptom below is affecting you right now.;q6;1
+radioGrid;Physical fatigue_Q6: Please select how much each symptom below is affecting you right now.;q6;2
+
